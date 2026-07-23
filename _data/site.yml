@@ -97,7 +97,7 @@ education:
       location: "New York, New York"
       note: "[One or two sentences in your own voice about what this period
              was actually like — not the catalogue description.]"
-      degree: "M.S. in Computational Linguistics"
+      degree: "M.A. in Computational Linguistics"
       points:
         - "[Something you did there]"
         - "[Another]"
@@ -118,7 +118,7 @@ education:
       years:    "2013 - 2017"
       location: "Brooklyn, New York"
       note: "[One or two sentences.]"
-      degree: "Law Insttitute focus"
+      degree: "Law Institute focus"
       points:
         - "[Something you did there]"
 
@@ -130,4 +130,4 @@ projects:
   title:   "Projects"
   intro: "[A line or two framing the list. What you mostly build, what's
           missing because it's private, and what someone should ask you about.]"
-  github_meta: "[N] public repos · [N] followers"    # blank hides the line
+  github_meta: ""    # blank hides the line
