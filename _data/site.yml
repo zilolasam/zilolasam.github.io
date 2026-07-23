@@ -97,7 +97,7 @@ education:
       location: "New York, New York"
       note: "[One or two sentences in your own voice about what this period
              was actually like — not the catalogue description.]"
-      degree: "Computational Linguistics"
+      degree: "M.S. in Computational Linguistics"
       points:
         - "[Something you did there]"
         - "[Another]"
@@ -108,17 +108,17 @@ education:
       years:    "2017 - 2021"
       location: "New York, New York"
       note: "[One or two sentences.]"
-      degree: "[Degree and field]"
+      degree: "B.A. in English and Computer Science"
       points:
         - "[Something you did there]"
         - "[Another]"
 
-    - school:   "[School name]"
-      badge:    "[C]"
-      years:    "[2014 - 2018]"
-      location: "[City, State]"
+    - school:   "James Madison High School"
+      badge:    "/assets/images/jmhs.jpeg"
+      years:    "2013 - 2017"
+      location: "Brooklyn, New York"
       note: "[One or two sentences.]"
-      degree: "[Diploma or focus]"
+      degree: "Law Insttitute focus"
       points:
         - "[Something you did there]"
 
