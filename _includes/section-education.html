@@ -1,0 +1,69 @@
+{%- assign e = site.data.site.education -%}
+
+<section class="section" id="education" data-bg="edu">
+  <p class="eyebrow reveal">{{ e.eyebrow }}</p>
+  <h2 class="section-title reveal">{{ e.title }}</h2>
+
+  <div class="edu-grid reveal">
+
+    {%- comment -%}
+      Both the timeline and the panels loop over the same list, so data-i and
+      data-panel are generated from the same index. Adding or removing an
+      entry can't put them out of sync.
+    {%- endcomment -%}
+
+    <ol class="timeline" id="timeline">
+      {%- for x in e.entries %}
+      <li>
+        <button class="tl-item{% if forloop.first %} is-active{% endif %}"
+                data-i="{{ forloop.index0 }}"
+                aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}">
+          <span class="tl-dot"></span>
+          {%- if x.badge %}<span class="badge">{{ x.badge }}</span>{% endif %}
+          <span>
+            <span class="tl-name">{{ x.school }}</span>
+            <span class="tl-years">{{ x.years }}</span>
+          </span>
+        </button>
+      </li>
+      {%- endfor %}
+    </ol>
+
+    <div class="edu-panels" id="eduPanels">
+      {%- for x in e.entries %}
+      <article class="card edu-panel{% if forloop.first %} is-active{% endif %}"
+               data-panel="{{ forloop.index0 }}">
+
+        <div class="edu-head">
+          {%- if x.badge %}<span class="badge">{{ x.badge }}</span>{% endif %}
+          <h3 class="edu-school">{{ x.school }}</h3>
+        </div>
+
+        <div class="edu-head">
+          <span class="edu-chip">{{ x.years }}</span>
+          {%- if x.location %}<span class="muted">· {{ x.location }}</span>{% endif %}
+        </div>
+
+        {%- if x.note %}
+        <p class="edu-quote">{{ x.note }}</p>
+        {%- endif %}
+
+        {%- if x.degree or x.points %}
+        <div class="edu-detail-box">
+          {%- if x.degree %}<p class="edu-degree">{{ x.degree }}</p>{% endif %}
+          {%- if x.points and x.points.size > 0 %}
+          <ul>
+            {%- for pt in x.points %}
+            <li>{{ pt }}</li>
+            {%- endfor %}
+          </ul>
+          {%- endif %}
+        </div>
+        {%- endif %}
+
+      </article>
+      {%- endfor %}
+    </div>
+
+  </div>
+</section>

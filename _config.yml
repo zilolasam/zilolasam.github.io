@@ -1,0 +1,26 @@
+# ============================================================================
+# Build settings only. All site copy lives in _data/site.yml
+# ============================================================================
+
+url: "https://USERNAME.github.io"
+baseurl: ""          # user site -> ""   |   project site -> "/reponame"
+
+# No theme gem — the layouts and CSS in this repo are the whole site.
+
+# Projects are data, not pages: output: false means Jekyll reads the front
+# matter but doesn't generate a page per project. The cards link straight out
+# via the `link` field. If you later want a page per project, flip this to
+# true and add a _layouts/project.html.
+collections:
+  projects:
+    output: false
+
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - README.md
+  - .github/

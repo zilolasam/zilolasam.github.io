@@ -1,0 +1,133 @@
+# ============================================================================
+# Everything on the site lives in this file.
+#
+# The one exception is projects — those are one file each in _projects/,
+# so you can add and remove them without touching a long list.
+#
+# Anything in [square brackets] is a placeholder. Leave a value blank ("")
+# and the block it belongs to disappears from the page.
+# ============================================================================
+
+name:  "[Your Name]"
+role:  "[Role]"                                    # used in the browser tab
+tagline: "[One sentence: who you are and what you build.]"   # meta description
+
+resume: "[/resume.pdf]"                            # blank hides the button
+
+social:
+  email:    "[you@example.com]"
+  linkedin: "[https://linkedin.com/in/you]"
+  github:   "[https://github.com/you]"
+  github_username: "[username]"
+
+
+# ---------------------------------------------------------------- intro ----
+# The top band: big name, role pills, the paragraph people actually read.
+intro:
+  eyebrow: "Hello, I'm"
+  label:   "Me in 10 seconds:"
+  text: >
+    [Open with what you do right now, in one sentence. Follow with one
+    sentence on where you came from — the background that explains how you
+    got here. Close with what you're looking for next. Under sixty words.]
+
+roles:
+  - "[Role]"
+  - "[Role]"
+  - "[Role]"
+
+
+# -------------------------------------------------------------- profile ----
+# The card beside your name. It is cloned into the sticky rail on scroll,
+# so this is the only place it's defined.
+profile:
+  photo: ""                       # e.g. /assets/img/portrait.jpg — blank shows a placeholder
+  headline: "[Your headline role]"
+  badges: ["[A]", "[B]", "[C]"]   # schools or employers; [] hides the row
+  skills:
+    - "[Skill]"
+    - "[Skill]"
+    - "[Skill]"
+    - "[Skill]"
+    - "[Skill]"
+    - "[Skill]"
+  now: "[What's actually on your desk this month.]"
+
+
+# ---------------------------------------------------------------- about ----
+about:
+  eyebrow: "Introduction"
+  title:   "About Me"
+  biography:
+    - "[First paragraph: where you are now and what you work on. Name the
+       institution or company and the actual substance of the work.]"
+    - "[Second paragraph: go deeper. What kinds of problems, what approaches,
+       what you've shipped or published.]"
+    - "[Third paragraph: what came before — earlier roles, education, anything
+       that explains the shape of your path.]"
+
+  stats:                          # icon: award | book | code | spark
+    - number: "[N]"
+      label:  "[Years in industry]"
+      icon:   award
+    - number: "[N]"
+      label:  "[Years in research]"
+      icon:   book
+
+  interests:
+    items: ["[Interest]", "[Interest]", "[Interest]"]
+    label: "[What these are — research interests, focus areas]"
+
+  highlights:
+    - "[Something specific you did, with a number in it if you have one.]"
+    - "[Another. Scope and impact beat job titles.]"
+    - "[A third.]"
+
+
+# ------------------------------------------------------------ education ----
+# Add or remove entries freely — the timeline and the detail panels are both
+# generated from this list, so their indices can never drift apart.
+education:
+  eyebrow: "Academic path"
+  title:   "Education"
+  entries:
+    - school:   "[School name]"
+      badge:    "[A]"
+      years:    "[2023 - Present]"
+      location: "[City, State]"
+      note: "[One or two sentences in your own voice about what this period
+             was actually like — not the catalogue description.]"
+      degree: "[Degree and field]"
+      points:
+        - "[Something you did there]"
+        - "[Another]"
+        - "[A third]"
+
+    - school:   "[School name]"
+      badge:    "[B]"
+      years:    "[2018 - 2022]"
+      location: "[City, State]"
+      note: "[One or two sentences.]"
+      degree: "[Degree and field]"
+      points:
+        - "[Something you did there]"
+        - "[Another]"
+
+    - school:   "[School name]"
+      badge:    "[C]"
+      years:    "[2014 - 2018]"
+      location: "[City, State]"
+      note: "[One or two sentences.]"
+      degree: "[Diploma or focus]"
+      points:
+        - "[Something you did there]"
+
+
+# ------------------------------------------------------------- projects ----
+# Section header only. The cards come from _projects/*.md
+projects:
+  eyebrow: "Craft & code"
+  title:   "Projects"
+  intro: "[A line or two framing the list. What you mostly build, what's
+          missing because it's private, and what someone should ask you about.]"
+  github_meta: "[N] public repos · [N] followers"    # blank hides the line
