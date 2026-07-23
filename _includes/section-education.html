@@ -19,7 +19,7 @@
                 data-i="{{ forloop.index0 }}"
                 aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}">
           <span class="tl-dot"></span>
-          {%- if x.badge %}<span class="badge">{{ x.badge }}</span>{% endif %}
+          {%- if x.badge %}{% include badge.html value=x.badge label=x.school %}{% endif %}
           <span>
             <span class="tl-name">{{ x.school }}</span>
             <span class="tl-years">{{ x.years }}</span>
@@ -35,7 +35,7 @@
                data-panel="{{ forloop.index0 }}">
 
         <div class="edu-head">
-          {%- if x.badge %}<span class="badge">{{ x.badge }}</span>{% endif %}
+          {%- if x.badge %}{% include badge.html value=x.badge label=x.school %}{% endif %}
           <h3 class="edu-school">{{ x.school }}</h3>
         </div>
 

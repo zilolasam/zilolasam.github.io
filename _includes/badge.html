@@ -1,0 +1,24 @@
+{%- comment -%}
+  One badge — a school or employer mark.
+
+  Works out for itself whether you gave it a text label or an image path,
+  so both of these are valid in _data/site.yml:
+
+      badge: "GC"
+      badge: "/assets/images/gc.jpg"
+
+  Usage:
+      {% include badge.html value=x.badge label=x.school %}
+{%- endcomment -%}
+
+{%- assign v = include.value -%}
+{%- assign is_image = false -%}
+{%- if v contains "/" or v contains ".png" or v contains ".jpg" or v contains ".jpeg" or v contains ".svg" or v contains ".webp" or v contains ".gif" -%}
+  {%- assign is_image = true -%}
+{%- endif -%}
+
+{%- if is_image -%}
+<img class="badge" src="{{ v | relative_url }}" alt="{{ include.label }}">
+{%- else -%}
+<span class="badge">{{ v }}</span>
+{%- endif -%}
