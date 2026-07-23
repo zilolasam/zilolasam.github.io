@@ -9,14 +9,14 @@
 # ============================================================================
 
 name:  "Zilola Samigjonova"
-role:  "Computational Linguistics student"                                    # used in the browser tab
+role:  "Computational Linguistics Student"                                    # used in the browser tab
 tagline: "[One sentence: who you are and what you build.]"   # meta description
 
 resume: "[/resume.pdf]"                            # blank hides the button
 
 social:
   email:    "zsamigjonova@gradcenter.cuny.edu"
-  linkedin: "https://linkedin.com/zilolasam"
+  linkedin: "https://linkedin.com/in/zilolasam"
   github:   "https://github.com/zilolasam"
   github_username: "zilolasam"
 
@@ -41,8 +41,8 @@ roles:
 # The card beside your name. It is cloned into the sticky rail on scroll,
 # so this is the only place it's defined.
 profile:
-  photo: ""                       # e.g. /assets/img/portrait.jpg — blank shows a placeholder
-  headline: "[Your headline role]"
+  photo: "/assets/images/portrait.JPG"                       # e.g. /assets/img/portrait.jpg — blank shows a placeholder
+  headline: "Computational Linguist"
   badges: ["[A]", "[B]", "[C]"]   # schools or employers; [] hides the row
   skills:
     - "[Skill]"
