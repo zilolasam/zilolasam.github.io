@@ -245,8 +245,12 @@ main { padding: 0 var(--pad) 6rem; }
 
 @media (min-width: 63rem) {
   main { margin-left: var(--rail); }
-  /* the intro band breaks out to full width, since the rail isn't up yet */
-  .about-intro { margin-left: calc(-1 * var(--rail)); padding-left: calc(var(--rail) + var(--pad)); padding-right: var(--pad); }
+
+  /* The intro band spans the full viewport. Cancel main's rail margin and
+     stop there — main's own padding supplies the gutter. Re-adding the rail
+     width as padding here was reserving space for a rail that isn't on
+     screen yet, which left a dead column down the left of the hero. */
+  .about-intro { margin-left: calc(-1 * var(--rail)); }
 }
 
 .section { max-width: 68rem; padding: clamp(4rem, 9vh, 7rem) 0; }
