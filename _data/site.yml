@@ -8,17 +8,17 @@
 # and the block it belongs to disappears from the page.
 # ============================================================================
 
-name:  "[Your Name]"
-role:  "[Role]"                                    # used in the browser tab
+name:  "Zilola Samigjonova"
+role:  "Computational Linguistics student"                                    # used in the browser tab
 tagline: "[One sentence: who you are and what you build.]"   # meta description
 
 resume: "[/resume.pdf]"                            # blank hides the button
 
 social:
-  email:    "[you@example.com]"
-  linkedin: "[https://linkedin.com/in/you]"
-  github:   "[https://github.com/you]"
-  github_username: "[username]"
+  email:    "zsamigjonova@gradcenter.cuny.edu"
+  linkedin: "https://linkedin.com/zilolasam"
+  github:   "https://github.com/zilolasam"
+  github_username: "zilolasam"
 
 
 # ---------------------------------------------------------------- intro ----
