@@ -91,22 +91,22 @@ education:
   eyebrow: "Academic path"
   title:   "Education"
   entries:
-    - school:   "[School name]"
-      badge:    "[A]"
-      years:    "[2023 - Present]"
-      location: "[City, State]"
+    - school:   "CUNY Graduate Center"
+      badge:    "/assets/images/gc.jpg"
+      years:    "2025 - Present"
+      location: "New York, New York"
       note: "[One or two sentences in your own voice about what this period
              was actually like — not the catalogue description.]"
-      degree: "[Degree and field]"
+      degree: "Computational Linguistics"
       points:
         - "[Something you did there]"
         - "[Another]"
         - "[A third]"
 
-    - school:   "[School name]"
-      badge:    "[B]"
-      years:    "[2018 - 2022]"
-      location: "[City, State]"
+    - school:   "Hunter College"
+      badge:    "/assets/images/hunter.png"
+      years:    "2017 - 2021"
+      location: "New York, New York"
       note: "[One or two sentences.]"
       degree: "[Degree and field]"
       points:
