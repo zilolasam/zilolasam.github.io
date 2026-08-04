@@ -51,7 +51,7 @@ profile:
     - "SQL"
     - "NLTK"
     - "spaCy"
-  now: "[What's actually on your desk this month.]"
+  now: "[]"
 
 
 # ---------------------------------------------------------------- about ----
@@ -67,16 +67,16 @@ about:
        that explains the shape of your path.]"
 
   stats:                          # icon: award | book | code | spark
-    - number: "[N]"
+    - number: "3"
       label:  "[Years in industry]"
       icon:   award
-    - number: "[N]"
+    - number: "2"
       label:  "[Years in research]"
       icon:   book
 
   interests:
-    items: ["[Interest]", "[Interest]", "[Interest]"]
-    label: "[What these are — research interests, focus areas]"
+    items: ["NLP", "Language and Speech Processing", "Turkic Languages"]
+    label: "Focus areas"
 
   highlights:
     - "[Something specific you did, with a number in it if you have one.]"
