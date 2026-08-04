@@ -43,14 +43,14 @@ roles:
 profile:
   photo: "/assets/images/portrait.JPG"                       # e.g. /assets/img/portrait.jpg — blank shows a placeholder
   headline: "Computational Linguist"
-  badges: ["[A]", "[B]", "[C]"]   # schools or employers; [] hides the row
+  badges: ["/assets/images/gc.jpg", "/assets/images/hunter.png"]   # schools or employers; [] hides the row
   skills:
-    - "[Skill]"
-    - "[Skill]"
-    - "[Skill]"
-    - "[Skill]"
-    - "[Skill]"
-    - "[Skill]"
+    - "Python"
+    - "PyTorch"
+    - "C++"
+    - "SQL"
+    - "NLTK"
+    - "spaCy"
   now: "[What's actually on your desk this month.]"
 
 
