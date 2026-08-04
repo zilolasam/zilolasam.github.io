@@ -31,6 +31,17 @@
   </div>
   {%- endif %}
 
+  {%- if p.languages and p.languages.size > 0 %}
+  <div>
+    <p class="eyebrow">Languages:</p>
+    <ul class="pills">
+      {%- for lang in p.languages %}
+      <li>{{ lang }}</li>
+      {%- endfor %}
+    </ul>
+  </div>
+  {%- endif %}
+
   {%- if p.now and p.now != "" %}
   <hr class="profile-divider">
   <div>
