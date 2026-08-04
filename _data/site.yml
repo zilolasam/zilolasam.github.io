@@ -9,7 +9,7 @@
 # ============================================================================
 
 name:  "Zilola Samigjonova"
-role:  "Computational Linguistics Student"                                    # used in the browser tab
+role:  "Computational Linguistics Student"                   # used in the browser tab
 tagline: "[One sentence: who you are and what you build.]"   # meta description
 
 resume: "[/resume.pdf]"                            # blank hides the button
@@ -27,9 +27,9 @@ intro:
   eyebrow: "Hello, I'm"
   label:   "Me in 10 seconds:"
   text: >
-    [Open with what you do right now, in one sentence. Follow with one
-    sentence on where you came from — the background that explains how you
-    got here. Close with what you're looking for next. Under sixty words.]
+    I am currently a Computational Linguistics master's student at the CUNY Graduate Center. 
+    I also work full-time as an Administative Assistant and an Adjunct Lecturer at Hunter College 
+    where I support faculty and staff as well as teach data structures in Python to students..
 
 roles:
   - "Master's Student in Computational Linguistics"
