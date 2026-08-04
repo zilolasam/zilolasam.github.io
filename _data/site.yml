@@ -51,6 +51,13 @@ profile:
     - "SQL"
     - "NLTK"
     - "spaCy"
+  languages: 
+    - "Uzbek"
+    - "Russian"
+    - "English"
+    - "Uyghur"
+    - "Korean"
+    - "Turkish"
   now: "[]"
 
 
@@ -118,9 +125,10 @@ education:
       years:    "2013 - 2017"
       location: "Brooklyn, New York"
       note: "[One or two sentences.]"
-      degree: "Law Institute focus"
+      degree: "High School Diploma"
       points:
-        - "[Something you did there]"
+        - "Law Institute focus"
+        - "The Winner of The Annual Law-Related Education Public School Essay Contest"
 
 
 # ------------------------------------------------------------- projects ----
