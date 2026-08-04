@@ -29,7 +29,7 @@ intro:
   text: >
     I am currently a Computational Linguistics master's student at the CUNY Graduate Center. 
     I also work full-time as an Administative Assistant and an Adjunct Lecturer at Hunter College 
-    where I support faculty and staff as well as teach data structures in Python to students..
+    where I support faculty and staff as well as teach data structures in Python to students.
 
 roles:
   - "Master's Student in Computational Linguistics"
@@ -61,7 +61,7 @@ profile:
   now: "[]"
 
 
-# ---------------------------------------------------------------- about ----
+# ---- about ----
 about:
   eyebrow: "Introduction"
   title:   "About Me"
@@ -124,7 +124,6 @@ education:
       badge:    "/assets/images/jmhs.jpeg"
       years:    "2013 - 2017"
       location: "Brooklyn, New York"
-      note: "[One or two sentences.]"
       degree: "High School Diploma"
       points:
         - "Law Institute focus"
