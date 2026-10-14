@@ -2,7 +2,7 @@
 # Build settings only. All site copy lives in _data/site.yml
 # ============================================================================
 
-url: "https://USERNAME.github.io"
+url: "https://zilolasam.github.io"
 baseurl: ""          # user site -> ""   |   project site -> "/reponame"
 
 # No theme gem — the layouts and CSS in this repo are the whole site.
