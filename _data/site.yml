@@ -12,7 +12,7 @@ name:  "Zilola Samigjonova"
 role:  "Computational Linguistics Student"                   # used in the browser tab
 tagline: "[One sentence: who you are and what you build.]"   # meta description
 
-resume: "[/resume.pdf]"                            # blank hides the button
+resume: "/resume.pdf"                            # blank hides the button
 
 social:
   email:    "zsamigjonova@gradcenter.cuny.edu"
@@ -28,12 +28,12 @@ intro:
   label:   "Me in 10 seconds:"
   text: >
     I am currently a Computational Linguistics master's student at the CUNY Graduate Center. 
-    I also work full-time as an Administative Assistant and an Adjunct Lecturer at Hunter College 
+    I also work full-time as an Administrative Assistant and an Adjunct Lecturer at Hunter College 
     where I support faculty and staff as well as teach data structures in Python to students.
 
 roles:
   - "Master's Student in Computational Linguistics"
-  - "Administative Coordinator"
+  - "Administrative Coordinator"
   - "Adjunct Lecturer"
 
 
@@ -106,9 +106,8 @@ education:
              was actually like — not the catalogue description.]"
       degree: "M.A. in Computational Linguistics"
       points:
-        - "[Something you did there]"
-        - "[Another]"
-        - "[A third]"
+        - "Mango languages dissertation award 2026"
+        - "Graduate coursework in ML and Linguistics"
 
     - school:   "Hunter College"
       badge:    "/assets/images/hunter.png"
@@ -117,8 +116,9 @@ education:
       note: "[One or two sentences.]"
       degree: "B.A. in English and Computer Science"
       points:
-        - "[Something you did there]"
-        - "[Another]"
+        - "Magna cum laude"
+        - "Athena Scholar"
+        - "Dean's List recipient 
 
     - school:   "James Madison High School"
       badge:    "/assets/images/jmhs.jpeg"
